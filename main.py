@@ -1,16 +1,27 @@
-# This is a sample Python script.
+import pandas as pd
+import seaborn as sns
+from matplotlib import pyplot as plt
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Option to display all columns
+pd.set_option('display.max_columns', None)
 
+df = pd.read_csv('heart_uci.csv')
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print(df.head())
+    print(df.nunique())
+    print(df.info())
+    # print(df.corr())
+    # pd.factorize(df['ChestPainType'])
+    # df['Sex'] = df['Sex'].factorize()[0]
+    for (columnName, columnData) in df.items():
+        # print(columnName)
+        # print(columnData.dtype)
+        if columnData.dtype == object:
+            df[columnName] = df[columnName].factorize()[0]
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    print(df.head())
+    print(df.info())
+    sns.heatmap(df.corr(), cmap="Blues", annot=True)
+    plt.show()
+    print(df.corr())
