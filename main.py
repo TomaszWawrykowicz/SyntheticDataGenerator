@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
@@ -21,7 +22,12 @@ if __name__ == '__main__':
             df[columnName] = df[columnName].factorize()[0]
 
     print(df.head())
-    print(df.info())
-    sns.heatmap(df.corr(), cmap="Blues", annot=True)
+    # print(df.info())
+    # sns.heatmap(df.corr(), cmap="Blues", annot=True)
+    # plt.show()
+    # print(df.corr())
+    x = df['Sex'].shape
+    print(x)
+
+    sns.scatterplot(df, x=np.linspace(0, 918, 918), y=df['MaxHR'])
     plt.show()
-    print(df.corr())
