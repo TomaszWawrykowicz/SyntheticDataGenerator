@@ -16,13 +16,21 @@ class GMMSyntheticDataGenerator(BaseEstimator):
     def __init__(self):
         self.n_features = None
         self.n_samples = None
+
         self.original_data = None
         self.data = None
+
         self.model = None
         self.factorize = []
+
         self.original_dtypes = None
         self.dtypes = None
         self.names = None
+
+        self.means = None
+        self.covariances = None
+        self.precision_cholesky = None
+        self.weights = None
 
     def preproccess_data(self, data):
         self.original_dtypes = data.dtypes.to_dict()
@@ -39,7 +47,7 @@ class GMMSyntheticDataGenerator(BaseEstimator):
         print('Data preproccessed')
         print(self.factorize)
 
-    def postprocess_data(self, rounding=False, to_integers=False, mapping=False):
+    def postprocess_data(self, rounding=True, to_integers=True, mapping=False):
         # Rounding and mapping original data naming
 
         # Rounding
@@ -68,7 +76,7 @@ class GMMSyntheticDataGenerator(BaseEstimator):
             if mapping:
                 self.data[column[0]] = self.data[column[0]].map(column[1])
                 # print(self.data[column[0]])
-                print('Mapped original data types')
+                # print('Mapped original data types')
 
     def fit(self, x):
         # self.data = x
@@ -114,10 +122,33 @@ class GMMSyntheticDataGenerator(BaseEstimator):
             raise TypeError('Model not build')
 
     def save_model(self):
-        np.save('model_weights', self.model.weights_, allow_pickle=False)
-        np.save('model_precisions_cholesky', self.model.precisions_cholesky_, allow_pickle=False)
-        np.save('model_means', self.model.means_, allow_pickle=False)
-        np.save('model_covariances', self.model.covariances_, allow_pickle=False)
+        np.save('gmm_names', list(self.names), allow_pickle=True)
+        np.save('gmm_weights', self.model.weights_, allow_pickle=False)
+        np.save('gmm_precisions_cholesky', self.model.precisions_cholesky_, allow_pickle=False)
+        np.save('gmm_means', self.model.means_, allow_pickle=False)
+        np.save('gmm_covariances', self.model.covariances_, allow_pickle=False)
+        print('Model saved successfully')
+
+    def load(self, names, means, covariances, precision_cholesky, weights):
+        if isinstance(names, list):
+            self.names = names
+        elif isinstance(names, str) and names.endswith('.npy'):
+            self.names = np.load(names)
+        else:
+            raise ValueError('Names argument is not a list or .npy file')
+        print(self.names)
+        means = np.load(means)
+        covar = np.load(covariances)
+
+        self.model = GaussianMixture(n_components=len(means), covariance_type='full')
+        self.model.precisions_cholesky = np.load(precision_cholesky)
+        self.model.weights_ = np.load(weights)
+        self.model.means_ = means
+        self.model.covariances_ = covar
+        print('Model loaded successfully')
+
+    def save_data(self, name):
+        self.data.to_csv(name, index=False)
 
 
 # generator = SyntheticDataGenerator(2, 5)
@@ -129,5 +160,11 @@ class GMMSyntheticDataGenerator(BaseEstimator):
 gen = GMMSyntheticDataGenerator()
 kaggle_data = pd.read_csv('heart_uci.csv')
 gen.fit(kaggle_data)
-syn_data = gen.sample(100)
+syn_data = gen.sample(918)
 print(syn_data)
+# gen.save_model()
+gen.save_data('new_data.csv')
+
+# gen.load('gmm_names.npy', 'gmm_means.npy', 'gmm_covariances.npy', 'gmm_precisions_cholesky.npy', 'gmm_weights.npy')
+# arr = gen.sample(100)
+# print(arr)  # DO POPRAWY, BO MUSI ŁADOWAĆ TWORZONY GENERATOR A NIE BAZOWY
