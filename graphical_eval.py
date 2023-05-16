@@ -27,7 +27,9 @@ new_data = new_data[['Age', 'RestingBP', 'Cholesterol', 'FastingBS', 'MaxHR',
 # sns.histplot(data, x='Age')
 # plt.show()
 # sns.histplot(new_data, x='Age')
-sns.heatmap(data.corr(), annot=True)
+corr = data.corr()
+print('xd')
+sns.heatmap(corr, annot=True)
 plt.show()
 
 sns.heatmap(new_data.corr(), annot=True)

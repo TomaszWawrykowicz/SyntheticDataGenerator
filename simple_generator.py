@@ -71,6 +71,7 @@ class GMMSyntheticDataGenerator(BaseEstimator):
             lenght = len(column[1])
             self.data[column[0]] = self.data[column[0]].apply(
                 lambda x: 0 if x < 0 else (lenght - 1 if x >= lenght else x))
+            # np.clip
 
             # Mapping back
             if mapping:
