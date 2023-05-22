@@ -2,10 +2,7 @@ import os.path
 
 from DataSynthesizer.DataDescriber import DataDescriber
 from DataSynthesizer.DataGenerator import DataGenerator
-from DataSynthesizer.ModelInspector import ModelInspector
-from DataSynthesizer.lib.utils import read_json_file, display_bayesian_network
-
-import pandas as pd
+from DataSynthesizer.lib.utils import display_bayesian_network
 
 
 def data_synthesizer_random_generator(data_in_csv, num_rows, description_file='description.json'):
