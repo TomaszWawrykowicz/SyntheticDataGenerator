@@ -2,3 +2,6 @@
 *.json
 *.csv
 */.idea
+*/venv
+*\venv
+*.txt
