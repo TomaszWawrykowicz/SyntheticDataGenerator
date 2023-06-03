@@ -1,4 +1,6 @@
+import numpy as np
 import pandas as pd
+from imblearn.over_sampling import BorderlineSMOTE
 from sklearn.model_selection import KFold, train_test_split
 
 
@@ -23,23 +25,24 @@ def semi_auto_factorize(data):
     return data, factorize_list
 
 
-def manual_factorize(data, factorize_list, back=False):
+def manual_factorize(data, factorize_list, clip=True, back=False):
     """
     Func for factorize dataset
+    :param clip: default True, apply np.clip on data, set False for iterate over string values
     :param data: dataset
     :param factorize_list: list of tuples containing column name and mapping dict, [('Sex', {0: 'M', 1: 'F'}),
     ('BodyType', {0: 'Slim', 1: 'Fat'})]
-    :param back: default False, set True if you want to factorize data to original values [('Sex', {'M': 0, 'F': 1})]
+    :param back: default False, set True for factorize input data
     :return data: factorized dataset
     """
     for column in factorize_list:
-        if back:
+        if clip:
             length = len(column[1])
-            data[column[0]] = data[column[0]].apply(
-                lambda x: 0 if x < 0 else (length - 1 if x >= length else x))
-            # data[column[0]] = np.clip(data[column[0]], 0, length - 1)
-
-        # data[column[0]] = data[column[0]].map(column[1])  # Uncomment for return to string type
+            # data[column[0]] = data[column[0]].apply(
+            #     lambda x: 0 if x < 0 else (length - 1 if x >= length else x))
+            data[column[0]] = np.clip(data[column[0]], 0, length - 1)
+        if back:
+            data[column[0]] = data[column[0]].map(column[1])  # Uncomment for return to string type
     return data
 
 
@@ -65,3 +68,15 @@ def simple_split(data, test_size, shuffle=True, random_state=42):
     x = x.reset_index(drop=True)
     y = y.reset_index(drop=True)
     return x, y
+
+
+def borderline_smote(data, target):
+    border_smote = BorderlineSMOTE()
+    x = data.drop(target, axis=1)
+    y = data[target]
+
+    x, y = border_smote.fit_resample(x, y)
+
+    x[target] = y
+
+    return x
