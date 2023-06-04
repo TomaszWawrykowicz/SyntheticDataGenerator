@@ -2,7 +2,7 @@ import numpy as np
 
 
 def hellinger_distance(data_1, data_2):
-    results = []
+    result = dict()
     for col in data_1.columns:
         # Transform given column to probability list
         x_hist, bins = np.histogram(data_1[col], bins='auto', density=True)
@@ -11,5 +11,5 @@ def hellinger_distance(data_1, data_2):
         # Compute Hellinger Distance value
         sim = np.sqrt(0.5 * ((np.sqrt(x_hist) - np.sqrt(y_hist)) ** 2).sum())
 
-        results.append({col: sim})
-    return results
+        result[col] = sim
+    return result
