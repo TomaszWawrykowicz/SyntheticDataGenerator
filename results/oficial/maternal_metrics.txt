@@ -1,0 +1,225 @@
+Metric: pcd
+Synthetic data version: maternal
+Score on test data: 0.2573787626374776
+
+
+Metric: mmd_rbf
+Synthetic data version: maternal
+Score on test data: 0.004812751265826202
+
+
+Metric: mmd_linear
+Synthetic data version: maternal
+Score on test data: 3.184604842084809
+
+
+Metric: pcd
+Synthetic data version: copula_1000_border_maternal_factorized
+Score on test data: 0.8219036130978822
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_1000_border_maternal_factorized
+Score on test data: 0.009153509831109479
+
+
+Metric: mmd_linear
+Synthetic data version: copula_1000_border_maternal_factorized
+Score on test data: 6.830804061100935
+
+
+Metric: pcd
+Synthetic data version: copula_1000_maternal_factorized
+Score on test data: 0.8942545229152473
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_1000_maternal_factorized
+Score on test data: 0.009155007023782212
+
+
+Metric: mmd_linear
+Synthetic data version: copula_1000_maternal_factorized
+Score on test data: 4.254901158201392
+
+
+Metric: pcd
+Synthetic data version: copula_border_maternal_factorized
+Score on test data: 0.8205078569720156
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_border_maternal_factorized
+Score on test data: 0.009564571419046364
+
+
+Metric: mmd_linear
+Synthetic data version: copula_border_maternal_factorized
+Score on test data: 9.434600437511108
+
+
+Metric: pcd
+Synthetic data version: copula_maternal_factorized
+Score on test data: 0.9042143448849456
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_maternal_factorized
+Score on test data: 0.009566046384006714
+
+
+Metric: mmd_linear
+Synthetic data version: copula_maternal_factorized
+Score on test data: 5.828244034826639
+
+
+Metric: pcd
+Synthetic data version: ctgan_1000_border_maternal_factorized
+Score on test data: 2.286074177830735
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_1000_border_maternal_factorized
+Score on test data: 0.009155116885161822
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_1000_border_maternal_factorized
+Score on test data: 100.50506003960618
+
+
+Metric: pcd
+Synthetic data version: ctgan_1000_maternal_factorized
+Score on test data: 2.3229696967779283
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_1000_maternal_factorized
+Score on test data: 0.009158219346859436
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_1000_maternal_factorized
+Score on test data: 134.27826307767828
+
+
+Metric: pcd
+Synthetic data version: ctgan_border_maternal_factorized
+Score on test data: 2.366714730479202
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_border_maternal_factorized
+Score on test data: 0.009565357348169202
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_border_maternal_factorized
+Score on test data: 129.8279123971006
+
+
+Metric: pcd
+Synthetic data version: ctgan_maternal_factorized
+Score on test data: 2.289825610055463
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_maternal_factorized
+Score on test data: 0.009563774282467715
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_maternal_factorized
+Score on test data: 54.91883799689822
+
+
+Metric: pcd
+Synthetic data version: ds_1000_maternal_factorized
+Score on test data: 2.3743397415041967
+
+
+Metric: mmd_rbf
+Synthetic data version: ds_1000_maternal_factorized
+Score on test data: 0.009154221788542928
+
+
+Metric: mmd_linear
+Synthetic data version: ds_1000_maternal_factorized
+Score on test data: 794.8607622223499
+
+
+Metric: pcd
+Synthetic data version: ds_maternal_factorized
+Score on test data: 2.279168001662287
+
+
+Metric: mmd_rbf
+Synthetic data version: ds_maternal_factorized
+Score on test data: 0.00956466910887107
+
+
+Metric: mmd_linear
+Synthetic data version: ds_maternal_factorized
+Score on test data: 768.0972719651472
+
+
+Metric: pcd
+Synthetic data version: gmm_1000_border_maternal_factorized
+Score on test data: 0.4932226693783869
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_1000_border_maternal_factorized
+Score on test data: 0.0075442880754014625
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_1000_border_maternal_factorized
+Score on test data: 7.339198222718551
+
+
+Metric: pcd
+Synthetic data version: gmm_1000_maternal_factorized
+Score on test data: 0.25564384205296736
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_1000_maternal_factorized
+Score on test data: 0.007470295713725498
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_1000_maternal_factorized
+Score on test data: 3.9387058863358106
+
+
+Metric: pcd
+Synthetic data version: gmm_border_maternal_factorized
+Score on test data: 0.4092651337094133
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_border_maternal_factorized
+Score on test data: 0.008309027919934136
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_border_maternal_factorized
+Score on test data: 5.8637482847843785
+
+
+Metric: pcd
+Synthetic data version: gmm_maternal_factorized
+Score on test data: 0.350220861701164
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_maternal_factorized
+Score on test data: 0.008388123259856575
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_maternal_factorized
+Score on test data: 4.8182945095031755
+
+

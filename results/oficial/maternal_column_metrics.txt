@@ -1,0 +1,225 @@
+Metric: kld
+Synthetic data version: maternal
+Score on test data: {'Age': 0.5213902780036213, 'SystolicBP': 0.03349314507119671, 'DiastolicBP': 0.03304975431362883, 'BS': 0.2505176323351124, 'BodyTemp': 0.016906720428394563, 'HeartRate': 0.04184647574603704, 'RiskLevel': 0.010181628962206118}
+
+
+Metric: hd
+Synthetic data version: maternal
+Score on test data: {'Age': 0.03157951676594581, 'SystolicBP': 0.031346582610802406, 'DiastolicBP': 0.03332585069716127, 'BS': 0.09979465289530647, 'BodyTemp': 0.09134520972841048, 'HeartRate': 0.3809592455726792, 'RiskLevel': 0.11229205204671676}
+
+
+Metric: ks_test
+Synthetic data version: maternal
+Score on test data: {'Age': 0.9436398216778249, 'SystolicBP': 0.9722450438078831, 'DiastolicBP': 0.6387446640357455, 'BS': 0.8329445426596725, 'BodyTemp': 0.9611144608998803, 'HeartRate': 0.9811865253719605, 'RiskLevel': 0.46799753858305254}
+
+
+Metric: kld
+Synthetic data version: copula_1000_border_maternal_factorized
+Score on test data: {'Age': 0.7594752780430547, 'SystolicBP': 2.807363367695767, 'DiastolicBP': 1.7943494817167855, 'BS': 32.48393957728376, 'BodyTemp': 8.021132110411587, 'HeartRate': 1.2375360609254822, 'RiskLevel': 0.007320783212729595}
+
+
+Metric: hd
+Synthetic data version: copula_1000_border_maternal_factorized
+Score on test data: {'Age': 0.06330781678448484, 'SystolicBP': 0.23006563865014593, 'DiastolicBP': 0.11731889977650711, 'BS': 0.6317849257339764, 'BodyTemp': 0.4819371350555968, 'HeartRate': 0.24881209052949038, 'RiskLevel': 0.09535288401214086}
+
+
+Metric: ks_test
+Synthetic data version: copula_1000_border_maternal_factorized
+Score on test data: {'Age': 0.028954224924597895, 'SystolicBP': 3.697732948396961e-15, 'DiastolicBP': 0.00033151515634453183, 'BS': 2.998190971201943e-46, 'BodyTemp': 2.461939731572956e-137, 'HeartRate': 6.728586421721566e-07, 'RiskLevel': 0.44347977094913243}
+
+
+Metric: kld
+Synthetic data version: copula_1000_maternal_factorized
+Score on test data: {'Age': 0.7222806578500918, 'SystolicBP': 2.5987242030852475, 'DiastolicBP': 1.7487909593409312, 'BS': 17.37979674378132, 'BodyTemp': 0.6769590893302676, 'HeartRate': 1.2118863630085395, 'RiskLevel': 0.004417192275441469}
+
+
+Metric: hd
+Synthetic data version: copula_1000_maternal_factorized
+Score on test data: {'Age': 0.060935891149440445, 'SystolicBP': 0.21562649592535774, 'DiastolicBP': 0.1102747239328866, 'BS': 0.6920738047402484, 'BodyTemp': 0.42156624181888375, 'HeartRate': 0.2183651297829705, 'RiskLevel': 0.07475563603460235}
+
+
+Metric: ks_test
+Synthetic data version: copula_1000_maternal_factorized
+Score on test data: {'Age': 0.10140454970472361, 'SystolicBP': 9.573517148801265e-14, 'DiastolicBP': 0.00010064125613177798, 'BS': 1.4487508652571953e-67, 'BodyTemp': 2.8168874313518087e-07, 'HeartRate': 4.731035742752993e-06, 'RiskLevel': 0.9943703327193274}
+
+
+Metric: kld
+Synthetic data version: copula_border_maternal_factorized
+Score on test data: {'Age': 0.7615363994003939, 'SystolicBP': 2.783161581993389, 'DiastolicBP': 1.8702153980414997, 'BS': 32.47604679608399, 'BodyTemp': 7.881097868690406, 'HeartRate': 1.2279507197138093, 'RiskLevel': 0.006700173966432372}
+
+
+Metric: hd
+Synthetic data version: copula_border_maternal_factorized
+Score on test data: {'Age': 0.06854648767741237, 'SystolicBP': 0.23058742980434657, 'DiastolicBP': 0.11958387705096427, 'BS': 0.6362927668279329, 'BodyTemp': 0.479639168766034, 'HeartRate': 0.23029635420334524, 'RiskLevel': 0.09103930030366893}
+
+
+Metric: ks_test
+Synthetic data version: copula_border_maternal_factorized
+Score on test data: {'Age': 0.01664596335447631, 'SystolicBP': 2.0744204172245155e-14, 'DiastolicBP': 0.0003252586568300682, 'BS': 4.971407873838525e-44, 'BodyTemp': 8.074372549561789e-121, 'HeartRate': 5.661460117225745e-06, 'RiskLevel': 0.5075809957309874}
+
+
+Metric: kld
+Synthetic data version: copula_maternal_factorized
+Score on test data: {'Age': 0.7235995338965605, 'SystolicBP': 2.493452231513287, 'DiastolicBP': 1.7496879015492373, 'BS': 23.02122178222759, 'BodyTemp': 0.6089106879393393, 'HeartRate': 1.188879493596127, 'RiskLevel': 0.0011711557567890742}
+
+
+Metric: hd
+Synthetic data version: copula_maternal_factorized
+Score on test data: {'Age': 0.0642336688802953, 'SystolicBP': 0.21231854048469587, 'DiastolicBP': 0.1158937988408406, 'BS': 0.6935996180076692, 'BodyTemp': 0.4120884745267853, 'HeartRate': 0.21079715298963253, 'RiskLevel': 0.03838588231746658}
+
+
+Metric: ks_test
+Synthetic data version: copula_maternal_factorized
+Score on test data: {'Age': 0.10327748166532717, 'SystolicBP': 2.1005665546718952e-13, 'DiastolicBP': 0.0003863159400645354, 'BS': 8.717242729755642e-63, 'BodyTemp': 1.2769620121186107e-05, 'HeartRate': 6.18800607328271e-05, 'RiskLevel': 0.9999999997249466}
+
+
+Metric: kld
+Synthetic data version: ctgan_1000_border_maternal_factorized
+Score on test data: {'Age': 0.783882506555715, 'SystolicBP': 2.246484785529212, 'DiastolicBP': 1.5703828153646433, 'BS': 31.89117059959476, 'BodyTemp': 7.142003671411538, 'HeartRate': 1.1800850573280957, 'RiskLevel': 0.08075998471621008}
+
+
+Metric: hd
+Synthetic data version: ctgan_1000_border_maternal_factorized
+Score on test data: {'Age': 0.07509886852273619, 'SystolicBP': 0.17237092304588353, 'DiastolicBP': 0.09730184140877829, 'BS': 0.4744520228360148, 'BodyTemp': 0.5109131920370856, 'HeartRate': 0.2563729570840484, 'RiskLevel': 0.31999616677635173}
+
+
+Metric: ks_test
+Synthetic data version: ctgan_1000_border_maternal_factorized
+Score on test data: {'Age': 3.2760884756088508e-06, 'SystolicBP': 4.204623834384532e-44, 'DiastolicBP': 4.610945657552474e-06, 'BS': 8.887267946751441e-10, 'BodyTemp': 2.677753955220624e-100, 'HeartRate': 6.824144031231469e-10, 'RiskLevel': 0.00016667017826066854}
+
+
+Metric: kld
+Synthetic data version: ctgan_1000_maternal_factorized
+Score on test data: {'Age': 1.1900543818665554, 'SystolicBP': 3.1734466861933157, 'DiastolicBP': 1.8693415311945163, 'BS': 10.307754679674918, 'BodyTemp': 2.7977350993087913, 'HeartRate': 0.9932558857598132, 'RiskLevel': 0.16410477158663855}
+
+
+Metric: hd
+Synthetic data version: ctgan_1000_maternal_factorized
+Score on test data: {'Age': 0.1129387761225945, 'SystolicBP': 0.181790026514016, 'DiastolicBP': 0.10663508132078443, 'BS': 0.5119168504715712, 'BodyTemp': 0.5820232919690997, 'HeartRate': 0.24116436652407533, 'RiskLevel': 0.42966909086910265}
+
+
+Metric: ks_test
+Synthetic data version: ctgan_1000_maternal_factorized
+Score on test data: {'Age': 5.713123542916951e-19, 'SystolicBP': 4.569054028927384e-35, 'DiastolicBP': 3.222283688007931e-05, 'BS': 2.6253253352293975e-25, 'BodyTemp': 2.677753955220624e-100, 'HeartRate': 1.0250272642489027e-09, 'RiskLevel': 3.450789928450066e-12}
+
+
+Metric: kld
+Synthetic data version: ctgan_border_maternal_factorized
+Score on test data: {'Age': 0.7531333666883668, 'SystolicBP': 3.5283171652945335, 'DiastolicBP': 1.6733316722876281, 'BS': 31.905082354150508, 'BodyTemp': 6.679842116827674, 'HeartRate': 1.078081596543884, 'RiskLevel': 0.08056120482267466}
+
+
+Metric: hd
+Synthetic data version: ctgan_border_maternal_factorized
+Score on test data: {'Age': 0.07249018530489375, 'SystolicBP': 0.29349382168521837, 'DiastolicBP': 0.1522736296598476, 'BS': 0.5195345858007402, 'BodyTemp': 0.296165919691076, 'HeartRate': 0.22195151600506804, 'RiskLevel': 0.3204063123770082}
+
+
+Metric: ks_test
+Synthetic data version: ctgan_border_maternal_factorized
+Score on test data: {'Age': 1.2257777256525142e-07, 'SystolicBP': 3.1768538866942967e-16, 'DiastolicBP': 1.1358281824318491e-11, 'BS': 7.867465106913016e-23, 'BodyTemp': 2.5123581512946215e-59, 'HeartRate': 0.00012603359044571183, 'RiskLevel': 0.0007957065145571675}
+
+
+Metric: kld
+Synthetic data version: ctgan_maternal_factorized
+Score on test data: {'Age': 0.6334416978724098, 'SystolicBP': 2.0918960887566094, 'DiastolicBP': 1.6052420107991965, 'BS': 15.025302314635248, 'BodyTemp': 1.0054426752007142, 'HeartRate': 1.4081630107370455, 'RiskLevel': 0.16674899439360275}
+
+
+Metric: hd
+Synthetic data version: ctgan_maternal_factorized
+Score on test data: {'Age': 0.062001643465839355, 'SystolicBP': 0.21677301713214883, 'DiastolicBP': 0.12467682994951527, 'BS': 0.488179258158215, 'BodyTemp': 0.2729955244490663, 'HeartRate': 0.26036178786798025, 'RiskLevel': 0.4328385473542194}
+
+
+Metric: ks_test
+Synthetic data version: ctgan_maternal_factorized
+Score on test data: {'Age': 0.005348978665969536, 'SystolicBP': 2.5053841530092118e-17, 'DiastolicBP': 8.357761509017701e-08, 'BS': 1.3059515052726655e-16, 'BodyTemp': 8.313506006353318e-19, 'HeartRate': 1.0134799633122719e-20, 'RiskLevel': 2.6953986238527658e-11}
+
+
+Metric: kld
+Synthetic data version: ds_1000_maternal_factorized
+Score on test data: {'Age': 0.744038151274913, 'SystolicBP': 2.9995386892579337, 'DiastolicBP': 1.754886587117797, 'BS': 33.168540616742156, 'BodyTemp': 1.3516244252620973, 'HeartRate': 2.273739615153981, 'RiskLevel': 0.0019763894803057035}
+
+
+Metric: hd
+Synthetic data version: ds_1000_maternal_factorized
+Score on test data: {'Age': 0.09474388983808657, 'SystolicBP': 0.2380925533932855, 'DiastolicBP': 0.13163451972401716, 'BS': 0.7134387074301431, 'BodyTemp': 0.7293941633321331, 'HeartRate': 0.23175465541531798, 'RiskLevel': 0.049613727677951185}
+
+
+Metric: ks_test
+Synthetic data version: ds_1000_maternal_factorized
+Score on test data: {'Age': 2.082016175712368e-17, 'SystolicBP': 1.0687113339099193e-11, 'DiastolicBP': 1.672595280604768e-07, 'BS': 6.655485720853234e-70, 'BodyTemp': 3.6386878034401e-107, 'HeartRate': 3.3317827412019973e-91, 'RiskLevel': 0.9813251229412505}
+
+
+Metric: kld
+Synthetic data version: ds_maternal_factorized
+Score on test data: {'Age': 0.7705428647598463, 'SystolicBP': 2.8253956814429397, 'DiastolicBP': 1.840430548445639, 'BS': 33.1685406167462, 'BodyTemp': 1.3431180148646884, 'HeartRate': 2.3123808297392374, 'RiskLevel': 0.0021949165349367476}
+
+
+Metric: hd
+Synthetic data version: ds_maternal_factorized
+Score on test data: {'Age': 0.0912170866131155, 'SystolicBP': 0.24148259387940965, 'DiastolicBP': 0.1310619740553133, 'BS': 0.725585168602959, 'BodyTemp': 0.7150716240527829, 'HeartRate': 0.23066543451620558, 'RiskLevel': 0.05227264244846655}
+
+
+Metric: ks_test
+Synthetic data version: ds_maternal_factorized
+Score on test data: {'Age': 8.962907728260138e-15, 'SystolicBP': 2.1405306048797998e-13, 'DiastolicBP': 4.211392755205663e-05, 'BS': 6.065309085784664e-65, 'BodyTemp': 3.9829911031357274e-97, 'HeartRate': 2.522397063296327e-83, 'RiskLevel': 0.9789326531728523}
+
+
+Metric: kld
+Synthetic data version: gmm_1000_border_maternal_factorized
+Score on test data: {'Age': 0.3771757901507785, 'SystolicBP': 0.3716697445312296, 'DiastolicBP': 0.4319238870745869, 'BS': 1.6446174351174827, 'BodyTemp': 0.6259369622850186, 'HeartRate': 0.3109975835590145, 'RiskLevel': 0.027287236057540847}
+
+
+Metric: hd
+Synthetic data version: gmm_1000_border_maternal_factorized
+Score on test data: {'Age': 0.03133952517150316, 'SystolicBP': 0.08492226467182276, 'DiastolicBP': 0.1546810243001052, 'BS': 0.9303202422170214, 'BodyTemp': 1.0771467768733611, 'HeartRate': 0.37816975197415614, 'RiskLevel': 0.183578888241383}
+
+
+Metric: ks_test
+Synthetic data version: gmm_1000_border_maternal_factorized
+Score on test data: {'Age': 0.9408026466735534, 'SystolicBP': 0.2646823159158857, 'DiastolicBP': 0.032425738201659546, 'BS': 0.008657162696345377, 'BodyTemp': 3.6064378160707983e-10, 'HeartRate': 0.4509442153917494, 'RiskLevel': 0.013230227680909182}
+
+
+Metric: kld
+Synthetic data version: gmm_1000_maternal_factorized
+Score on test data: {'Age': 0.3773696341346851, 'SystolicBP': 0.2911584968705307, 'DiastolicBP': 0.27037894398358886, 'BS': 3.493139222463928, 'BodyTemp': 0.4509682385041834, 'HeartRate': 0.2888435715269065, 'RiskLevel': 0.024591496690211975}
+
+
+Metric: hd
+Synthetic data version: gmm_1000_maternal_factorized
+Score on test data: {'Age': 0.030711990272466676, 'SystolicBP': 0.2381541698382374, 'DiastolicBP': 0.13937510493279573, 'BS': 0.8610956987779974, 'BodyTemp': 1.0589182298712516, 'HeartRate': 0.36678260471640584, 'RiskLevel': 0.1740812364356484}
+
+
+Metric: ks_test
+Synthetic data version: gmm_1000_maternal_factorized
+Score on test data: {'Age': 0.5097127048354779, 'SystolicBP': 0.7380850115607543, 'DiastolicBP': 0.2735254355197065, 'BS': 0.039469034688487156, 'BodyTemp': 0.00017410177001204102, 'HeartRate': 0.2987485313425899, 'RiskLevel': 0.06275333092585861}
+
+
+Metric: kld
+Synthetic data version: gmm_border_maternal_factorized
+Score on test data: {'Age': 0.554460076876585, 'SystolicBP': 0.3552410955614748, 'DiastolicBP': 0.32073213446573057, 'BS': 33.16854061674621, 'BodyTemp': 0.6435363787187461, 'HeartRate': 0.317694703558137, 'RiskLevel': 0.02730852789636954}
+
+
+Metric: hd
+Synthetic data version: gmm_border_maternal_factorized
+Score on test data: {'Age': 0.05513108038031483, 'SystolicBP': 0.2466458452303504, 'DiastolicBP': 0.15505226880962994, 'BS': 0.4918660777446275, 'BodyTemp': 1.099718394579838, 'HeartRate': 0.2839977126077803, 'RiskLevel': 0.18406378318470798}
+
+
+Metric: ks_test
+Synthetic data version: gmm_border_maternal_factorized
+Score on test data: {'Age': 0.902768525133188, 'SystolicBP': 0.351118826030573, 'DiastolicBP': 0.05683536900226523, 'BS': 0.00032472664290869894, 'BodyTemp': 9.351128494540943e-10, 'HeartRate': 0.6393154565014948, 'RiskLevel': 0.02464069251784926}
+
+
+Metric: kld
+Synthetic data version: gmm_maternal_factorized
+Score on test data: {'Age': 0.3666015608467781, 'SystolicBP': 0.3299571607019838, 'DiastolicBP': 0.3853719950630147, 'BS': 1.8555991217049344, 'BodyTemp': 0.6351954280097906, 'HeartRate': 0.3848808021451086, 'RiskLevel': 0.024807953371035196}
+
+
+Metric: hd
+Synthetic data version: gmm_maternal_factorized
+Score on test data: {'Age': 0.09573513487406074, 'SystolicBP': 0.22780924654921797, 'DiastolicBP': 0.1339041006546744, 'BS': 0.6813407210166396, 'BodyTemp': 1.0764355034550235, 'HeartRate': 0.1304173869185529, 'RiskLevel': 0.17609120761057884}
+
+
+Metric: ks_test
+Synthetic data version: gmm_maternal_factorized
+Score on test data: {'Age': 0.85449505907496, 'SystolicBP': 0.19062244970034037, 'DiastolicBP': 0.15686162144597732, 'BS': 0.02945387609148063, 'BodyTemp': 9.631613500084441e-08, 'HeartRate': 0.043334579819967085, 'RiskLevel': 0.1371690662337547}
+
+

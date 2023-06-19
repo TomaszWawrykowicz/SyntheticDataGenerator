@@ -1,0 +1,27 @@
+Classifier Nearest Neighbors
+Parameters: {'clf__algorithm': 'ball_tree', 'clf__leaf_size': 20, 'clf__n_neighbors': 10, 'clf__p': 1, 'clf__weights': 'distance'}
+Best score: 1.0
+Classifier Linear SVM
+Parameters: {'clf__C': 0.01, 'clf__class_weight': 'balanced', 'clf__gamma': 'scale', 'clf__tol': 0.0001}
+Best score: 0.8349043074031947
+Classifier RBF SVM
+Parameters: {'clf__C': 1, 'clf__class_weight': 'balanced', 'clf__gamma': 'scale', 'clf__tol': 0.0001}
+Best score: 0.9044946048873374
+Classifier Gaussian Process
+Parameters: {'clf__max_iter_predict': 50, 'clf__n_restarts_optimizer': 0}
+Best score: 0.9116903384578446
+Classifier Decision Tree
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': None, 'clf__min_samples_split': 2, 'clf__splitter': 'random'}
+Best score: 1.0
+Classifier Random Forest
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier AdaBoost
+Parameters: {'clf__learning_rate': 0.1, 'clf__n_estimators': 100}
+Best score: 0.8662751741012611
+Classifier Naive Bayes
+Parameters: {'clf__var_smoothing': 1e-10}
+Best score: 0.8390038609079962
+Classifier QDA
+Parameters: {}
+Best score: 0.8606141522029374

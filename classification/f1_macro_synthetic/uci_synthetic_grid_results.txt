@@ -1,0 +1,80 @@
+Classifier Random Forest
+On dataset: copula_1000_border_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: copula_1000_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: copula_1000_un_processed_uci
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: copula_border_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: copula_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: copula_un_processed_uci
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_1000_border_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_1000_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_1000_un_processed_uci
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_border_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_un_processed_uci
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ds_1000_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ds_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: gmm_1000_border_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: gmm_1000_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 0.9989785234556552
+Classifier Random Forest
+On dataset: gmm_1000_un_processed_uci
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: gmm_border_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0
+Classifier Random Forest
+On dataset: gmm_uci_factorized
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 0.9983809915292063
+Classifier Random Forest
+On dataset: gmm_un_processed_uci
+Parameters: {'clf__class_weight': 'balanced', 'clf__criterion': 'log_loss', 'clf__max_features': 'log2', 'clf__min_samples_split': 3, 'clf__n_estimators': 100}
+Best score: 1.0

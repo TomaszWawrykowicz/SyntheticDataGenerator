@@ -1,0 +1,225 @@
+Metric: pcd
+Synthetic data version: ahmad
+Score on test data: 1.4569309092197218
+
+
+Metric: mmd_rbf
+Synthetic data version: ahmad
+Score on test data: 0.01589580010632642
+
+
+Metric: mmd_linear
+Synthetic data version: ahmad
+Score on test data: 92736085.41522217
+
+
+Metric: pcd
+Synthetic data version: copula_1000_ahmad
+Score on test data: 1.749837636204886
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_1000_ahmad
+Score on test data: 0.012111108217716729
+
+
+Metric: mmd_linear
+Synthetic data version: copula_1000_ahmad
+Score on test data: 48122592.50881958
+
+
+Metric: pcd
+Synthetic data version: copula_1000_border_ahmad
+Score on test data: 1.5934981714637633
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_1000_border_ahmad
+Score on test data: 0.012111107327967451
+
+
+Metric: mmd_linear
+Synthetic data version: copula_1000_border_ahmad
+Score on test data: 155437375.70535278
+
+
+Metric: pcd
+Synthetic data version: copula_ahmad
+Score on test data: 1.9713816457129585
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_ahmad
+Score on test data: 0.015895782858844083
+
+
+Metric: mmd_linear
+Synthetic data version: copula_ahmad
+Score on test data: 158452766.91445923
+
+
+Metric: pcd
+Synthetic data version: copula_border_ahmad
+Score on test data: 1.582447728696682
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_border_ahmad
+Score on test data: 0.01589578115598512
+
+
+Metric: mmd_linear
+Synthetic data version: copula_border_ahmad
+Score on test data: 252782230.17669678
+
+
+Metric: pcd
+Synthetic data version: ctgan_1000_ahmad
+Score on test data: 1.9938857851866554
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_1000_ahmad
+Score on test data: 0.012111109120860296
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_1000_ahmad
+Score on test data: 2745157139.4963074
+
+
+Metric: pcd
+Synthetic data version: ctgan_1000_border_ahmad
+Score on test data: 2.020657558047116
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_1000_border_ahmad
+Score on test data: 0.012111105328223577
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_1000_border_ahmad
+Score on test data: 11314308515.015045
+
+
+Metric: pcd
+Synthetic data version: ctgan_ahmad
+Score on test data: 2.1798327031486457
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_ahmad
+Score on test data: 0.01589578229118959
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_ahmad
+Score on test data: 2301109182.1752014
+
+
+Metric: pcd
+Synthetic data version: ctgan_border_ahmad
+Score on test data: 2.259218018723867
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_border_ahmad
+Score on test data: 0.01589577700805118
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_border_ahmad
+Score on test data: 2854988611.1184998
+
+
+Metric: pcd
+Synthetic data version: ds_1000_ahmad
+Score on test data: 2.070380572499635
+
+
+Metric: mmd_rbf
+Synthetic data version: ds_1000_ahmad
+Score on test data: 0.012111103848275802
+
+
+Metric: mmd_linear
+Synthetic data version: ds_1000_ahmad
+Score on test data: 21198892051.338135
+
+
+Metric: pcd
+Synthetic data version: ds_ahmad
+Score on test data: 2.3680513631259696
+
+
+Metric: mmd_rbf
+Synthetic data version: ds_ahmad
+Score on test data: 0.01589577080834776
+
+
+Metric: mmd_linear
+Synthetic data version: ds_ahmad
+Score on test data: 17913232909.21292
+
+
+Metric: pcd
+Synthetic data version: gmm_1000_ahmad
+Score on test data: 1.5073724942928992
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_1000_ahmad
+Score on test data: 0.01212310810900381
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_1000_ahmad
+Score on test data: 81240890.51715088
+
+
+Metric: pcd
+Synthetic data version: gmm_1000_border_ahmad
+Score on test data: 1.603833124695713
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_1000_border_ahmad
+Score on test data: 0.012125107952066545
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_1000_border_ahmad
+Score on test data: 21677457.328308105
+
+
+Metric: pcd
+Synthetic data version: gmm_ahmad
+Score on test data: 1.6611839673949798
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_ahmad
+Score on test data: 0.01607893841159956
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_ahmad
+Score on test data: 27491423.94949341
+
+
+Metric: pcd
+Synthetic data version: gmm_border_ahmad
+Score on test data: 1.9585328240247475
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_border_ahmad
+Score on test data: 0.015941564858938887
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_border_ahmad
+Score on test data: 55342.273864746094
+
+

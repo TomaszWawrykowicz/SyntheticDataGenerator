@@ -1,0 +1,84 @@
+Classifier: Random Forest
+Trained on: copula_1000_ahmad
+Score on train data: 1.0
+Score on test data: 0.6390374331550802
+Execution time: 5.025293350219727
+
+Classifier: Random Forest
+Trained on: copula_1000_border_ahmad
+Score on train data: 1.0
+Score on test data: 0.42989864864864863
+Execution time: 4.672699213027954
+
+Classifier: Random Forest
+Trained on: copula_ahmad
+Score on train data: 1.0
+Score on test data: 0.6791716177219487
+Execution time: 2.942854881286621
+
+Classifier: Random Forest
+Trained on: copula_border_ahmad
+Score on train data: 1.0
+Score on test data: 0.39597315436241615
+Execution time: 2.8107593059539795
+
+Classifier: Random Forest
+Trained on: ctgan_1000_ahmad
+Score on train data: 1.0
+Score on test data: 0.45608380338436744
+Execution time: 5.143702030181885
+
+Classifier: Random Forest
+Trained on: ctgan_1000_border_ahmad
+Score on train data: 1.0
+Score on test data: 0.256198347107438
+Execution time: 5.44549822807312
+
+Classifier: Random Forest
+Trained on: ctgan_ahmad
+Score on train data: 1.0
+Score on test data: 0.6277729038726658
+Execution time: 3.0793356895446777
+
+Classifier: Random Forest
+Trained on: ctgan_border_ahmad
+Score on train data: 1.0
+Score on test data: 0.5079278294149809
+Execution time: 3.0062150955200195
+
+Classifier: Random Forest
+Trained on: ds_1000_ahmad
+Score on train data: 1.0
+Score on test data: 0.5792207792207792
+Execution time: 5.737128734588623
+
+Classifier: Random Forest
+Trained on: ds_ahmad
+Score on train data: 1.0
+Score on test data: 0.3062200956937799
+Execution time: 3.0221052169799805
+
+Classifier: Random Forest
+Trained on: gmm_1000_ahmad
+Score on train data: 1.0
+Score on test data: 0.826177388203833
+Execution time: 4.979908227920532
+
+Classifier: Random Forest
+Trained on: gmm_1000_border_ahmad
+Score on train data: 1.0
+Score on test data: 0.8086124401913876
+Execution time: 4.917820930480957
+
+Classifier: Random Forest
+Trained on: gmm_ahmad
+Score on train data: 1.0
+Score on test data: 0.7264437689969605
+Execution time: 2.9879307746887207
+
+Classifier: Random Forest
+Trained on: gmm_border_ahmad
+Score on train data: 1.0
+Score on test data: 0.7400210084033613
+Execution time: 2.9281256198883057
+

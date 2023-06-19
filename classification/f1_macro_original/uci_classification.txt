@@ -1,0 +1,45 @@
+Classifier: Nearest Neighbors
+Score on train data: 1.0
+Score on test data: 0.8731067820878269
+Execution time: 8.204698324203491
+
+Classifier: Linear SVM
+Score on train data: 0.8349043074031947
+Score on test data: 0.8692287444064226
+Execution time: 155.6143763065338
+
+Classifier: RBF SVM
+Score on train data: 0.9044946048873374
+Score on test data: 0.851009203302129
+Execution time: 1.8194100856781006
+
+Classifier: Gaussian Process
+Score on train data: 0.9116903384578446
+Score on test data: 0.8731867410567771
+Execution time: 118.53642988204956
+
+Classifier: Decision Tree
+Score on train data: 1.0
+Score on test data: 0.7970055161544524
+Execution time: 0.9262120723724365
+
+Classifier: Random Forest
+Score on train data: 1.0
+Score on test data: 0.8659261885068337
+Execution time: 139.42173290252686
+
+Classifier: AdaBoost
+Score on train data: 0.8662751741012611
+Score on test data: 0.8695652173913044
+Execution time: 3.3289871215820312
+
+Classifier: Naive Bayes
+Score on train data: 0.8390038609079962
+Score on test data: 0.8550039401103231
+Execution time: 0.036008358001708984
+
+Classifier: QDA
+Score on train data: 0.8606141522029374
+Score on test data: 0.8441517511260521
+Execution time: 0.022878646850585938
+

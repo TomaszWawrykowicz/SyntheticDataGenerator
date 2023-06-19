@@ -1,0 +1,56 @@
+Classifier Random Forest
+On dataset: copula_1000_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: copula_1000_border_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: copula_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: copula_border_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_1000_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_1000_border_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ctgan_border_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ds_1000_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: ds_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: gmm_1000_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: gmm_1000_border_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: gmm_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0
+Classifier Random Forest
+On dataset: gmm_border_ahmad
+Parameters: {'clf__class_weight': None, 'clf__criterion': 'gini', 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Best score: 1.0

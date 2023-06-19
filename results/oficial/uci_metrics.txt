@@ -1,0 +1,315 @@
+Metric: pcd
+Synthetic data version: uci
+Score on test data: 0.9771369098139245
+
+
+Metric: mmd_rbf
+Synthetic data version: uci
+Score on test data: 0.0051756509228984525
+
+
+Metric: mmd_linear
+Synthetic data version: uci
+Score on test data: 65.76777005908662
+
+
+Metric: pcd
+Synthetic data version: copula_1000_border_uci_factorized
+Score on test data: 2.5643359907973564
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_1000_border_uci_factorized
+Score on test data: 0.004623653388634361
+
+
+Metric: mmd_linear
+Synthetic data version: copula_1000_border_uci_factorized
+Score on test data: 18836.681309737687
+
+
+Metric: pcd
+Synthetic data version: copula_1000_uci_factorized
+Score on test data: 2.4970387910603127
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_1000_uci_factorized
+Score on test data: 0.004623651573559336
+
+
+Metric: mmd_linear
+Synthetic data version: copula_1000_uci_factorized
+Score on test data: 2891.6041085681354
+
+
+Metric: pcd
+Synthetic data version: copula_1000_un_processed_uci
+Score on test data: 2.4970387910603127
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_1000_un_processed_uci
+Score on test data: 0.004623651573559336
+
+
+Metric: mmd_linear
+Synthetic data version: copula_1000_un_processed_uci
+Score on test data: 2891.6041085681354
+
+
+Metric: pcd
+Synthetic data version: copula_border_uci_factorized
+Score on test data: 2.5410538332065227
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_border_uci_factorized
+Score on test data: 0.005181287596156635
+
+
+Metric: mmd_linear
+Synthetic data version: copula_border_uci_factorized
+Score on test data: 18598.57194656224
+
+
+Metric: pcd
+Synthetic data version: copula_uci_factorized
+Score on test data: 2.527665392964567
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_uci_factorized
+Score on test data: 0.005181284041129407
+
+
+Metric: mmd_linear
+Synthetic data version: copula_uci_factorized
+Score on test data: 2957.427140067215
+
+
+Metric: pcd
+Synthetic data version: copula_un_processed_uci
+Score on test data: 2.527665392964567
+
+
+Metric: mmd_rbf
+Synthetic data version: copula_un_processed_uci
+Score on test data: 0.005181284041129407
+
+
+Metric: mmd_linear
+Synthetic data version: copula_un_processed_uci
+Score on test data: 2957.427140067215
+
+
+Metric: pcd
+Synthetic data version: ctgan_1000_border_uci_factorized
+Score on test data: 3.173722458710432
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_1000_border_uci_factorized
+Score on test data: 0.004623652437111587
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_1000_border_uci_factorized
+Score on test data: 2417.928979590535
+
+
+Metric: pcd
+Synthetic data version: ctgan_1000_uci_factorized
+Score on test data: 3.205728809786328
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_1000_uci_factorized
+Score on test data: 0.00462364615214309
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_1000_uci_factorized
+Score on test data: 1795.5564932260313
+
+
+Metric: pcd
+Synthetic data version: ctgan_1000_un_processed_uci
+Score on test data: 3.1709942067319568
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_1000_un_processed_uci
+Score on test data: 0.004623651652456285
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_1000_un_processed_uci
+Score on test data: 793.3470475297654
+
+
+Metric: pcd
+Synthetic data version: ctgan_border_uci_factorized
+Score on test data: 3.2034483593430996
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_border_uci_factorized
+Score on test data: 0.005181284076239706
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_border_uci_factorized
+Score on test data: 399.3905520392582
+
+
+Metric: pcd
+Synthetic data version: ctgan_uci_factorized
+Score on test data: 3.0731612029340236
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_uci_factorized
+Score on test data: 0.00518128021385551
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_uci_factorized
+Score on test data: 6563.6358904337685
+
+
+Metric: pcd
+Synthetic data version: ctgan_un_processed_uci
+Score on test data: 3.276748463227662
+
+
+Metric: mmd_rbf
+Synthetic data version: ctgan_un_processed_uci
+Score on test data: 0.005181283829254364
+
+
+Metric: mmd_linear
+Synthetic data version: ctgan_un_processed_uci
+Score on test data: 49.46494275901932
+
+
+Metric: pcd
+Synthetic data version: ds_1000_uci_factorized
+Score on test data: 3.242862842387719
+
+
+Metric: mmd_rbf
+Synthetic data version: ds_1000_uci_factorized
+Score on test data: 0.004623651758929899
+
+
+Metric: mmd_linear
+Synthetic data version: ds_1000_uci_factorized
+Score on test data: 11811.52484206733
+
+
+Metric: pcd
+Synthetic data version: ds_uci_factorized
+Score on test data: 3.299120469949117
+
+
+Metric: mmd_rbf
+Synthetic data version: ds_uci_factorized
+Score on test data: 0.005181284025992674
+
+
+Metric: mmd_linear
+Synthetic data version: ds_uci_factorized
+Score on test data: 15196.650328605727
+
+
+Metric: pcd
+Synthetic data version: gmm_1000_border_uci_factorized
+Score on test data: 1.1160821221613355
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_1000_border_uci_factorized
+Score on test data: 0.0046236416893029545
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_1000_border_uci_factorized
+Score on test data: 263.2083857069665
+
+
+Metric: pcd
+Synthetic data version: gmm_1000_uci_factorized
+Score on test data: 1.020778124148014
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_1000_uci_factorized
+Score on test data: 0.004623639589869259
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_1000_uci_factorized
+Score on test data: 141.1165417356533
+
+
+Metric: pcd
+Synthetic data version: gmm_1000_un_processed_uci
+Score on test data: 1.4297309769397326
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_1000_un_processed_uci
+Score on test data: 0.004623710531004869
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_1000_un_processed_uci
+Score on test data: 141.18867534433957
+
+
+Metric: pcd
+Synthetic data version: gmm_border_uci_factorized
+Score on test data: 1.0927316197563097
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_border_uci_factorized
+Score on test data: 0.005181255594605109
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_border_uci_factorized
+Score on test data: 428.2655300727929
+
+
+Metric: pcd
+Synthetic data version: gmm_uci_factorized
+Score on test data: 1.1119476465311078
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_uci_factorized
+Score on test data: 0.005181278632485988
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_uci_factorized
+Score on test data: 90.5851072271762
+
+
+Metric: pcd
+Synthetic data version: gmm_un_processed_uci
+Score on test data: 1.608521740461843
+
+
+Metric: mmd_rbf
+Synthetic data version: gmm_un_processed_uci
+Score on test data: 0.005181104744970586
+
+
+Metric: mmd_linear
+Synthetic data version: gmm_un_processed_uci
+Score on test data: 70.25695517874556
+
+

@@ -1,0 +1,84 @@
+Classifier: Random Forest
+Trained on: copula_1000_border_maternal_factorized
+Score on train data: 0.999036445877708
+Score on test data: 0.45413224524800166
+Execution time: 1.600907325744629
+
+Classifier: Random Forest
+Trained on: copula_1000_maternal_factorized
+Score on train data: 0.99905802199233
+Score on test data: 0.4501058327937779
+Execution time: 1.479764461517334
+
+Classifier: Random Forest
+Trained on: copula_border_maternal_factorized
+Score on train data: 0.9986197140836316
+Score on test data: 0.4695811809477866
+Execution time: 1.3377506732940674
+
+Classifier: Random Forest
+Trained on: copula_maternal_factorized
+Score on train data: 0.9986447587547628
+Score on test data: 0.4733378220220325
+Execution time: 1.2385623455047607
+
+Classifier: Random Forest
+Trained on: ctgan_1000_border_maternal_factorized
+Score on train data: 1.0
+Score on test data: 0.23242225041325493
+Execution time: 1.6532180309295654
+
+Classifier: Random Forest
+Trained on: ctgan_1000_maternal_factorized
+Score on train data: 1.0
+Score on test data: 0.2533711921391117
+Execution time: 1.4891331195831299
+
+Classifier: Random Forest
+Trained on: ctgan_border_maternal_factorized
+Score on train data: 1.0
+Score on test data: 0.24757239048642965
+Execution time: 1.353257179260254
+
+Classifier: Random Forest
+Trained on: ctgan_maternal_factorized
+Score on train data: 1.0
+Score on test data: 0.2500522337141034
+Execution time: 1.269420862197876
+
+Classifier: Random Forest
+Trained on: ds_1000_maternal_factorized
+Score on train data: 1.0
+Score on test data: 0.2731870324905601
+Execution time: 1.693608045578003
+
+Classifier: Random Forest
+Trained on: ds_maternal_factorized
+Score on train data: 1.0
+Score on test data: 0.3025481880903568
+Execution time: 1.4145243167877197
+
+Classifier: Random Forest
+Trained on: gmm_1000_border_maternal_factorized
+Score on train data: 0.9749098906155153
+Score on test data: 0.6899432475544383
+Execution time: 1.242798089981079
+
+Classifier: Random Forest
+Trained on: gmm_1000_maternal_factorized
+Score on train data: 0.9644535121649906
+Score on test data: 0.7142824662307848
+Execution time: 1.2039062976837158
+
+Classifier: Random Forest
+Trained on: gmm_border_maternal_factorized
+Score on train data: 1.0
+Score on test data: 0.6790325513729769
+Execution time: 1.16933012008667
+
+Classifier: Random Forest
+Trained on: gmm_maternal_factorized
+Score on train data: 0.9828692126530268
+Score on test data: 0.6846843935385603
+Execution time: 1.0981786251068115
+
