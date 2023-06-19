@@ -2,6 +2,8 @@
 *.json
 *_train.csv
 *_test.csv
+*_uci.csv
+*_ahmad.csv
 *_factorized.csv
 */.idea
 */venv

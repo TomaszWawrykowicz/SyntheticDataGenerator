@@ -1,0 +1,120 @@
+Classifier: Random Forest
+Trained on: copula_1000_border_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.45074626865671635
+Execution time: 2.2860937118530273
+
+Classifier: Random Forest
+Trained on: copula_1000_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.8112373737373737
+Execution time: 2.601682424545288
+
+Classifier: Random Forest
+Trained on: copula_1000_un_processed_uci
+Score on train data: 1.0
+Score on test data: 0.8040906461959094
+Execution time: 2.6085712909698486
+
+Classifier: Random Forest
+Trained on: copula_border_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.4438356620647159
+Execution time: 1.958449363708496
+
+Classifier: Random Forest
+Trained on: copula_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.8042553191489361
+Execution time: 2.0781326293945312
+
+Classifier: Random Forest
+Trained on: copula_un_processed_uci
+Score on train data: 1.0
+Score on test data: 0.81480653097741
+Execution time: 2.1299736499786377
+
+Classifier: Random Forest
+Trained on: ctgan_1000_border_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.5602484472049689
+Execution time: 2.990219831466675
+
+Classifier: Random Forest
+Trained on: ctgan_1000_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.36487780297304107
+Execution time: 2.8426132202148438
+
+Classifier: Random Forest
+Trained on: ctgan_1000_un_processed_uci
+Score on train data: 1.0
+Score on test data: 0.38816423568720687
+Execution time: 2.9014108180999756
+
+Classifier: Random Forest
+Trained on: ctgan_border_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.557967465685431
+Execution time: 2.438533306121826
+
+Classifier: Random Forest
+Trained on: ctgan_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.3284671532846716
+Execution time: 2.185795783996582
+
+Classifier: Random Forest
+Trained on: ctgan_un_processed_uci
+Score on train data: 1.0
+Score on test data: 0.4972677595628415
+Execution time: 2.3052358627319336
+
+Classifier: Random Forest
+Trained on: ds_1000_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.29695378151260504
+Execution time: 3.022373676300049
+
+Classifier: Random Forest
+Trained on: ds_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.37471022128556375
+Execution time: 2.3545100688934326
+
+Classifier: Random Forest
+Trained on: gmm_1000_border_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.8332545311268715
+Execution time: 2.410646915435791
+
+Classifier: Random Forest
+Trained on: gmm_1000_uci_factorized
+Score on train data: 0.9989785234556552
+Score on test data: 0.8475378787878788
+Execution time: 2.2633697986602783
+
+Classifier: Random Forest
+Trained on: gmm_1000_un_processed_uci
+Score on train data: 1.0
+Score on test data: 0.8658980184107891
+Execution time: 2.2983109951019287
+
+Classifier: Random Forest
+Trained on: gmm_border_uci_factorized
+Score on train data: 1.0
+Score on test data: 0.8441517511260521
+Execution time: 1.8965003490447998
+
+Classifier: Random Forest
+Trained on: gmm_uci_factorized
+Score on train data: 0.9983809915292063
+Score on test data: 0.8659402691171645
+Execution time: 1.9405298233032227
+
+Classifier: Random Forest
+Trained on: gmm_un_processed_uci
+Score on train data: 1.0
+Score on test data: 0.8292056720780503
+Execution time: 1.9508507251739502
+
