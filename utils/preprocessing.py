@@ -25,14 +25,14 @@ def semi_auto_factorize(data):
     return data, factorize_list
 
 
-def manual_factorize(data, factorize_list, clip=True, back=False):
+def manual_factorize(data, factorize_list, clip=True, input_fact=False):
     """
     Func for factorize dataset
     :param clip: default True, apply np.clip on data, set False for iterate over string values
     :param data: dataset
     :param factorize_list: list of tuples containing column name and mapping dict, [('Sex', {0: 'M', 1: 'F'}),
     ('BodyType', {0: 'Slim', 1: 'Fat'})]
-    :param back: default False, set True for factorize input data
+    :param input_fact: default False, set True for factorize input data
     :return data: factorized dataset
     """
     for column in factorize_list:
@@ -41,8 +41,10 @@ def manual_factorize(data, factorize_list, clip=True, back=False):
             # data[column[0]] = data[column[0]].apply(
             #     lambda x: 0 if x < 0 else (length - 1 if x >= length else x))
             data[column[0]] = np.clip(data[column[0]], 0, length - 1)
-        if back:
-            data[column[0]] = data[column[0]].map(column[1])  # Uncomment for return to string type
+        if input_fact:
+            data[column[0]] = data[column[0]].map(column[1])
+        # else:
+        #     data[column[0]] = data[column[0]].map(column[1])
     return data
 
 

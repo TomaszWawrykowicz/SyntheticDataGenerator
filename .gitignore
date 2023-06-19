@@ -1,8 +1,8 @@
 *\.idea
 *.json
-*.csv
+*_train.csv
+*_test.csv
+*_factorized.csv
 */.idea
 */venv
 *\venv
-*.txt
-*.xlsx
