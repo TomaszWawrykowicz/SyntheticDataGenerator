@@ -15,7 +15,6 @@ uci_heart_factorize_back_params = [('Sex', {0: 'M', 1: 'F'}),
 maternal_factorize_params = [('RiskLevel', {'low risk': 0, 'mid risk': 1, 'high risk': 2})]
 maternal_factorize_back_params = [('RiskLevel', {0: 'low risk', 1: 'mid risk', 2: 'high risk'})]
 
-# print(manual_factorize(uci_heart_df, uci_heart_factorize_params, clip=False, back=True))
 
 uci_heart_sdv_metadata = {
     "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",

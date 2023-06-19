@@ -32,7 +32,7 @@ class GMMSyntheticDataGenerator(BaseEstimator):
         self.names = None
 
     def fit(self, data, target, n_components=None, factorize_list=None, make_factorize=False):
-        self.original_data = data
+        self.original_data = data.copy()
         self.target = target
         self.target_min = self.original_data[target].min()
         self.target_max = self.original_data[target].max()
@@ -69,21 +69,24 @@ class GMMSyntheticDataGenerator(BaseEstimator):
         self.original_dtypes = self.original_data.dtypes.to_dict()
         self.names = self.original_dtypes.keys()
         if factorize:
-            self.original_data, self.factorize = semi_auto_factorize(self.original_data)
+            if self.factorize:
+                self.original_data = manual_factorize(self.original_data, self.factorize, clip=False, input_fact=True)
+            else:
+                self.original_data, self.factorize = semi_auto_factorize(self.original_data)
         self.dtypes = self.original_data.dtypes.to_dict()
         print('Data preproccessed')
         print(self.factorize)
 
-    def _postprocess(self):
+    def _postprocess(self, input_fact):
         self.data = rounding(self.original_data, self.data, self.dtypes)
-        self.data = manual_factorize(self.data, self.factorize, back=False)
-        # self.data[self.target] = self.data[self.target].apply(lambda x: 0 if x < 0 else (1 if x > 1 else x))
         self.data[self.target] = np.clip(self.data[self.target], self.target_min, self.target_max)
+        self.data = manual_factorize(self.data, self.factorize, input_fact=input_fact)
+        # self.data[self.target] = self.data[self.target].apply(lambda x: 0 if x < 0 else (1 if x > 1 else x))
 
-    def generate(self, num_rows):
+    def generate(self, num_rows, return_to_original_labels=True):
         if self.model:
             self.data = pd.DataFrame(self.model.sample(num_rows)[0], columns=self.names)
-            self._postprocess()
+            self._postprocess(return_to_original_labels)
             return self.data
         else:
             raise TypeError('Model not build')

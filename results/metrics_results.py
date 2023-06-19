@@ -1,10 +1,7 @@
 import os
-import time
-
-import numpy as np
 import pandas as pd
 
-from evaluation.mmd import mmd_rbf
+from evaluation.mmd import mmd_rbf, mmd_linear
 from evaluation.hellinger_distance import hellinger_distance
 from evaluation.kl_divergence import kl_div
 from evaluation.ks_test import ks_test
@@ -39,7 +36,8 @@ metrics_names = [
     'kld',
     'hd',
     'ks_test',
-    'mmd',
+    'mmd_rbf',
+    'mmd_linear'
 ]
 
 metrics = [
@@ -48,6 +46,7 @@ metrics = [
     hellinger_distance,
     ks_test,
     mmd_rbf,
+    mmd_linear,
 ]
 
 train_datas = [
@@ -70,7 +69,7 @@ for name, target, test_data, datasets_folder, train_data in zip(names, targets, 
             if float(score):
                 numeric_df = pd.concat([numeric_df, pd.DataFrame({'metric': [metric_name],
                                                                   'dataset': [name], 'value': [score]})])
-                with open(f'{name}_metrics.txt', 'a') as res:
+                with open(f'of_{name}_metrics.txt', 'a') as res:
                     res.write(f'Metric: {metric_name}')
                     res.write(f'\nSynthetic data version: {name}')
                     res.write(f'\nScore on test data: {score}\n\n\n')
@@ -79,7 +78,7 @@ for name, target, test_data, datasets_folder, train_data in zip(names, targets, 
                                   columns=list(tabular_metrics.columns))
             tabular_metrics = pd.concat([tabular_metrics, series])
 
-            with open(f'{name}_column_metrics.txt', 'a') as res:
+            with open(f'of_{name}_column_metrics.txt', 'a') as res:
                 res.write(f'Metric: {metric_name}')
                 res.write(f'\nSynthetic data version: {name}')
                 res.write(f'\nScore on test data: {score}\n\n\n')
@@ -96,7 +95,7 @@ for name, target, test_data, datasets_folder, train_data in zip(names, targets, 
                 if float(score):
                     numeric_df = pd.concat([numeric_df, pd.DataFrame({'metric': [metric_name],
                                                                       'dataset': [dataset_name], 'value': [score]})])
-                    with open(f'{name}_metrics.txt', 'a') as res:
+                    with open(f'of_{name}_metrics.txt', 'a') as res:
                         res.write(f'Metric: {metric_name}')
                         res.write(f'\nSynthetic data version: {dataset_name}')
                         res.write(f'\nScore on test data: {score}\n\n\n')
@@ -105,12 +104,13 @@ for name, target, test_data, datasets_folder, train_data in zip(names, targets, 
                                       columns=list(tabular_metrics.columns))
                 tabular_metrics = pd.concat([tabular_metrics, series])
 
-                with open(f'{name}_column_metrics.txt', 'a') as res:
+                with open(f'of_{name}_column_metrics.txt', 'a') as res:
                     res.write(f'Metric: {metric_name}')
                     res.write(f'\nSynthetic data version: {dataset_name}')
                     res.write(f'\nScore on test data: {score}\n\n\n')
 
-    numeric_df.sort_values(by=['metric', 'value'], ascending=True).to_csv(f'{name}_mmd_pcd.csv', index=False)
-    numeric_df.sort_values(by=['metric', 'value'], ascending=True).to_excel(f'{name}_mmd_pcd.xlsx', index=False)
-    tabular_metrics.sort_values(by=['metric'], ascending=True).to_csv(f'{name}_hs_kld_ks.csv', index=False)
-    tabular_metrics.sort_values(by=['metric'], ascending=True).to_excel(f'{name}_hs_kld_ks.xlsx', index=False)
+    numeric_df.sort_values(by=['metric', 'value'], ascending=True).to_csv(f'of_{name}_mmd_pcd.csv', index=False)
+    numeric_df.sort_values(by=['metric', 'value'], ascending=True).to_excel(f'of_{name}_mmd_pcd.xlsx', index=False)
+    tabular_metrics.sort_values(by=['metric', 'dataset'], ascending=True).to_csv(f'of_{name}_hs_kld_ks.csv', index=False)
+    tabular_metrics.sort_values(by=['metric', 'dataset'], ascending=True).to_excel(f'of_{name}_hs_kld_ks.xlsx',
+                                                                                   index=False)

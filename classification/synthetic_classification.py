@@ -17,22 +17,22 @@ names = [
 clf = RandomForestClassifier()
 
 ahmad_rand_forest_params_grid = {'clf__n_estimators': [200],
-                                 'clf__criterion': ['log_loss'],
-                                 'clf__min_samples_split': [3],
-                                 'clf__max_features': ['log2'],
-                                 'clf__class_weight': ['balanced_subsample']}
+                                 'clf__criterion': ['gini'],
+                                 'clf__min_samples_split': [2],
+                                 'clf__max_features': ['sqrt'],
+                                 'clf__class_weight': [None]}
 
-maternal_rand_forest_params_grid = {'clf__n_estimators': [100],
-                                    'clf__criterion': ['gini'],
-                                    'clf__min_samples_split': [3],
+maternal_rand_forest_params_grid = {'clf__n_estimators': [50],
+                                    'clf__criterion': ['entropy'],
+                                    'clf__min_samples_split': [2],
                                     'clf__max_features': ['log2'],
                                     'clf__class_weight': [None]}
 
 uci_rand_forest_params_grid = {'clf__n_estimators': [100],
                                'clf__criterion': ['log_loss'],
-                               'clf__min_samples_split': [2],
-                               'clf__max_features': ['sqrt'],
-                               'clf__class_weight': [None]}
+                               'clf__min_samples_split': [3],
+                               'clf__max_features': ['log2'],
+                               'clf__class_weight': ['balanced']}
 
 params = [
     ahmad_rand_forest_params_grid,
@@ -65,7 +65,7 @@ def grid_function(data, target, name, classifier, param_grid, x_test, y_test, tx
 
     classifier = Pipeline([('scale', StandardScaler()),
                            ('clf', classifier)])
-    grid = GridSearchCV(classifier, param_grid=param_grid, scoring='f1_weighted', cv=5)
+    grid = GridSearchCV(classifier, param_grid=param_grid, scoring='f1_macro', cv=5)
     grid.fit(x, y)
     train_score = grid.score(x, y)
     print(grid.best_estimator_, train_score)

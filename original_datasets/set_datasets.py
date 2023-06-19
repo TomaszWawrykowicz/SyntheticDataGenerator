@@ -21,9 +21,9 @@ make_datasets(ahmad_hear_df, 'ahmad')
 make_datasets(uci_heart_df, 'uci')
 make_datasets(maternal_df, 'maternal')
 
-manual_factorize(uci_heart_df, uci_heart_factorize_params, clip=False, back=True).to_csv(
+manual_factorize(uci_heart_df, uci_heart_factorize_params, clip=False, input_fact=True).to_csv(
     'uci_factorized.csv', index=False)
-manual_factorize(maternal_df, maternal_factorize_params, clip=False, back=True).to_csv(
+manual_factorize(maternal_df, maternal_factorize_params, clip=False, input_fact=True).to_csv(
     'maternal_factorized.csv', index=False)
 
 uci_train = pd.read_csv('../original_datasets/train_datasets/uci_train.csv')
@@ -31,12 +31,12 @@ uci_test = pd.read_csv('../original_datasets/test_datasets/uci_test.csv')
 maternal_train = pd.read_csv('../original_datasets/train_datasets/maternal_train.csv')
 maternal_test = pd.read_csv('../original_datasets/test_datasets/maternal_test.csv')
 
-manual_factorize(uci_train, uci_heart_factorize_params, clip=False, back=True).to_csv(
+manual_factorize(uci_train, uci_heart_factorize_params, clip=False, input_fact=True).to_csv(
     'train_datasets/uci_factorized_train.csv', index=False)
-manual_factorize(uci_test, uci_heart_factorize_params, clip=False, back=True).to_csv(
+manual_factorize(uci_test, uci_heart_factorize_params, clip=False, input_fact=True).to_csv(
     'test_datasets/uci_factorized_test.csv', index=False)
 
-manual_factorize(maternal_train, maternal_factorize_params, clip=False, back=True).to_csv(
+manual_factorize(maternal_train, maternal_factorize_params, clip=False, input_fact=True).to_csv(
     'train_datasets/maternal_factorized_train.csv', index=False)
-manual_factorize(maternal_test, maternal_factorize_params, clip=False, back=True).to_csv(
+manual_factorize(maternal_test, maternal_factorize_params, clip=False, input_fact=True).to_csv(
     'test_datasets/maternal_factorized_test.csv', index=False)

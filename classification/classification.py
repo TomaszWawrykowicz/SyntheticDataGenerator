@@ -7,7 +7,6 @@ import pandas as pd
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
-from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.gaussian_process import GaussianProcessClassifier
@@ -17,8 +16,6 @@ from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 
-from utils.preprocessing import manual_factorize
-from original_datasets.factorize_params import uci_heart_factorize_params, maternal_factorize_params
 
 warnings.filterwarnings('ignore')
 
@@ -29,7 +26,6 @@ names = [
     "Gaussian Process",
     "Decision Tree",
     "Random Forest",
-    "Neural Net",
     "AdaBoost",
     "Naive Bayes",
     "QDA",
@@ -42,7 +38,6 @@ classifiers = [
     GaussianProcessClassifier(1.0 * RBF(1.0)),
     DecisionTreeClassifier(),
     RandomForestClassifier(),
-    MLPClassifier(),
     AdaBoostClassifier(),
     GaussianNB(),
     QuadraticDiscriminantAnalysis(),
@@ -55,7 +50,7 @@ def grid_function(data, target, name, classifier, param_grid, x_test, y_test):
 
     classifier = Pipeline([('scale', StandardScaler()),
                            ('clf', classifier)])
-    grid = GridSearchCV(classifier, param_grid=param_grid, scoring='f1_weighted', cv=5)
+    grid = GridSearchCV(classifier, param_grid=param_grid, scoring='f1_macro', cv=5)
     grid.fit(x, y)
     train_score = grid.score(x, y)
     print(grid.best_estimator_, train_score)
@@ -95,15 +90,6 @@ rand_forest_params_grid = {'clf__n_estimators': [50, 100, 200],
                            'clf__min_samples_split': [2, 3],
                            'clf__max_features': ['sqrt', 'log2', None],
                            'clf__class_weight': [None, 'balanced', 'balanced_subsample']}
-mlpc_random_grid = {'clf__hidden_layer_sizes': [(50,), (100,), (125,)],
-                    'clf__activation': ['identity', 'logistic', 'tanh', 'relu'],
-                    'clf__solver': ['lbfgs', 'sgd', 'adam'],
-                    'clf__alpha': [0.0001, 0.001],
-                    'clf__learning_rate': ['constant', 'invscaling', 'adaptive'],
-                    'clf__learning_rate_init': [0.001, 0.01, 0.1],
-                    # 'clf__max_iter': [200, 400, 500],
-                    'clf__max_iter': [500],
-                    'clf__max_fun': [10000, 15000, 20000]}
 ada_boost_params_grid = {'clf__n_estimators': [25, 50, 100],
                          'clf__learning_rate': [0.1, 1, 10]}
 gauss_nb_params_grid = {'clf__var_smoothing': [1e-10, 1e-9, 1e-8]}
@@ -116,7 +102,6 @@ params = [
     gauss_process_params_grid,
     dec_tree_params_grid,
     rand_forest_params_grid,
-    mlpc_random_grid,
     ada_boost_params_grid,
     gauss_nb_params_grid,
     qda_params_grid,
@@ -126,13 +111,13 @@ params = [
 # train_data = pd.read_csv('../original_datasets/train_datasets/ahmad_train.csv')
 # test_data = pd.read_csv('../original_datasets/test_datasets/ahmad_test.csv')
 
-target = 'HeartDisease'
-train_data = pd.read_csv('../original_datasets/train_datasets/uci_factorized_train.csv')
-test_data = pd.read_csv('../original_datasets/test_datasets/uci_factorized_test.csv')
+# target = 'HeartDisease'
+# train_data = pd.read_csv('../original_datasets/train_datasets/uci_factorized_train.csv')
+# test_data = pd.read_csv('../original_datasets/test_datasets/uci_factorized_test.csv')
 
-# target = 'RiskLevel'
-# train_data = pd.read_csv('../original_datasets/train_datasets/maternal_factorized_train.csv')
-# test_data = pd.read_csv('../original_datasets/test_datasets/maternal_factorized_test.csv')
+target = 'RiskLevel'
+train_data = pd.read_csv('../original_datasets/train_datasets/maternal_factorized_train.csv')
+test_data = pd.read_csv('../original_datasets/test_datasets/maternal_factorized_test.csv')
 
 x_test = test_data.drop(target, axis=1)
 y_test = np.ravel(test_data[target])
@@ -143,7 +128,6 @@ for name, clf, param_grid in zip(names, classifiers, params):
                                                                 classifier=clf,
                                                                 param_grid=param_grid, x_test=x_test, y_test=y_test)
 
-    # score = estimator.score(x_test, y_test)
     end_time = time.time()
 
     with open('classification.txt', 'a') as res:
