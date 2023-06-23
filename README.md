@@ -2,6 +2,7 @@
 
 ## Table of contents
 * [General info](#general-info)
+* [Datasets](#datasets)
 * [Technologies](#technologies)
 
 [//]: # (* [Setup]&#40;#setup&#41;)
@@ -15,7 +16,13 @@ In this GitHub repository, you will find the following folders:
 * "graphics": Includes images presented in the study.
 * "results": Contains the results of the metrics.
 
-	
+## Datasets
+Datasets not available in the repository are required to run the application correctly, but are available in.
+* https://ieeexplore.ieee.org/document/9350320 and https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data
+* https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0181001
+* https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+ 
 ## Technologies
 Project is created with:
 * Python version: 3.10
